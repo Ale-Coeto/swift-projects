@@ -37,6 +37,12 @@ struct HomeView: View {
                     } label: {
                         Text("Multiple views")
                     }
+                    
+                    NavigationLink {
+                        NavView()
+                    } label: {
+                        Text("Navigation view")
+                    }
 
                 }
                 

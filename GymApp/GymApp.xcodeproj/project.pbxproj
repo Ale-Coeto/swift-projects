@@ -7,42 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C6D690F2CAF42EE00487ED5 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D690E2CAF42EE00487ED5 /* NavView.swift */; };
-		2C6D69112CAF42F500487ED5 /* Jugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69102CAF42F500487ED5 /* Jugador.swift */; };
-		2C6D69132CAF47B700487ED5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69122CAF47B700487ED5 /* DetailView.swift */; };
-		2C6D69162CB48E8100487ED5 /* FormsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69152CB48E8100487ED5 /* FormsView.swift */; };
-		2C70D7DD2CA215C300A19A97 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70D7DC2CA215C300A19A97 /* MainApp.swift */; };
-		2C70D7DF2CA215C300A19A97 /* Divisas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70D7DE2CA215C300A19A97 /* Divisas.swift */; };
-		2C70D7E12CA215C400A19A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C70D7E02CA215C400A19A97 /* Assets.xcassets */; };
-		2C70D7E42CA215C400A19A97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C70D7E32CA215C400A19A97 /* Preview Assets.xcassets */; };
-		2C70D8292CA60ABD00A19A97 /* VariasVistas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70D8282CA60ABD00A19A97 /* VariasVistas.swift */; };
-		2C70D82B2CA60E3E00A19A97 /* VistaFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70D82A2CA60E3E00A19A97 /* VistaFoto.swift */; };
-		2C70D82D2CA6112200A19A97 /* VistaEditar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70D82C2CA6112200A19A97 /* VistaEditar.swift */; };
-		2C70D8322CA6716A00A19A97 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70D8312CA6716A00A19A97 /* BindingView.swift */; };
-		2C70D8342CA6718800A19A97 /* CoordinatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70D8332CA6718800A19A97 /* CoordinatesView.swift */; };
-		2C70D8362CA671E400A19A97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C70D8352CA671E400A19A97 /* HomeView.swift */; };
+		2C6D69242CB495E400487ED5 /* GymAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69232CB495E400487ED5 /* GymAppApp.swift */; };
+		2C6D69262CB495E400487ED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69252CB495E400487ED5 /* ContentView.swift */; };
+		2C6D69282CB495E600487ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6D69272CB495E600487ED5 /* Assets.xcassets */; };
+		2C6D692B2CB495E600487ED5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6D692A2CB495E600487ED5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C6D690E2CAF42EE00487ED5 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
-		2C6D69102CAF42F500487ED5 /* Jugador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jugador.swift; sourceTree = "<group>"; };
-		2C6D69122CAF47B700487ED5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		2C6D69152CB48E8100487ED5 /* FormsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsView.swift; sourceTree = "<group>"; };
-		2C70D7D92CA215C300A19A97 /* Lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C70D7DC2CA215C300A19A97 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
-		2C70D7DE2CA215C300A19A97 /* Divisas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divisas.swift; sourceTree = "<group>"; };
-		2C70D7E02CA215C400A19A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C70D7E32CA215C400A19A97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2C70D8282CA60ABD00A19A97 /* VariasVistas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariasVistas.swift; sourceTree = "<group>"; };
-		2C70D82A2CA60E3E00A19A97 /* VistaFoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaFoto.swift; sourceTree = "<group>"; };
-		2C70D82C2CA6112200A19A97 /* VistaEditar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaEditar.swift; sourceTree = "<group>"; };
-		2C70D8312CA6716A00A19A97 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
-		2C70D8332CA6718800A19A97 /* CoordinatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesView.swift; sourceTree = "<group>"; };
-		2C70D8352CA671E400A19A97 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2C6D69202CB495E400487ED5 /* GymApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6D69232CB495E400487ED5 /* GymAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppApp.swift; sourceTree = "<group>"; };
+		2C6D69252CB495E400487ED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C6D69272CB495E600487ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C6D692A2CB495E600487ED5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C70D7D62CA215C300A19A97 /* Frameworks */ = {
+		2C6D691D2CB495E400487ED5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,127 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C6D690D2CAF42DD00487ED5 /* Navigation */ = {
+		2C6D69172CB495E400487ED5 = {
 			isa = PBXGroup;
 			children = (
-				2C6D690E2CAF42EE00487ED5 /* NavView.swift */,
-				2C6D69122CAF47B700487ED5 /* DetailView.swift */,
-				2C6D69102CAF42F500487ED5 /* Jugador.swift */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
-		2C6D69142CB48E6700487ED5 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				2C6D69152CB48E8100487ED5 /* FormsView.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		2C70D7D02CA215C300A19A97 = {
-			isa = PBXGroup;
-			children = (
-				2C70D7DB2CA215C300A19A97 /* Lessons */,
-				2C70D7DA2CA215C300A19A97 /* Products */,
+				2C6D69222CB495E400487ED5 /* GymApp */,
+				2C6D69212CB495E400487ED5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2C70D7DA2CA215C300A19A97 /* Products */ = {
+		2C6D69212CB495E400487ED5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C70D7D92CA215C300A19A97 /* Lessons.app */,
+				2C6D69202CB495E400487ED5 /* GymApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C70D7DB2CA215C300A19A97 /* Lessons */ = {
+		2C6D69222CB495E400487ED5 /* GymApp */ = {
 			isa = PBXGroup;
 			children = (
-				2C6D69142CB48E6700487ED5 /* Utils */,
-				2C6D690D2CAF42DD00487ED5 /* Navigation */,
-				2C70D7DC2CA215C300A19A97 /* MainApp.swift */,
-				2C70D8352CA671E400A19A97 /* HomeView.swift */,
-				2C70D7E02CA215C400A19A97 /* Assets.xcassets */,
-				2C70D82F2CA6712C00A19A97 /* VariasVistas */,
-				2C70D82E2CA6711900A19A97 /* Divisas */,
-				2C70D8302CA6715D00A19A97 /* Binding */,
-				2C70D7E22CA215C400A19A97 /* Preview Content */,
+				2C6D69232CB495E400487ED5 /* GymAppApp.swift */,
+				2C6D69252CB495E400487ED5 /* ContentView.swift */,
+				2C6D69272CB495E600487ED5 /* Assets.xcassets */,
+				2C6D69292CB495E600487ED5 /* Preview Content */,
 			);
-			path = Lessons;
+			path = GymApp;
 			sourceTree = "<group>";
 		};
-		2C70D7E22CA215C400A19A97 /* Preview Content */ = {
+		2C6D69292CB495E600487ED5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2C70D7E32CA215C400A19A97 /* Preview Assets.xcassets */,
+				2C6D692A2CB495E600487ED5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2C70D82E2CA6711900A19A97 /* Divisas */ = {
-			isa = PBXGroup;
-			children = (
-				2C70D7DE2CA215C300A19A97 /* Divisas.swift */,
-			);
-			path = Divisas;
-			sourceTree = "<group>";
-		};
-		2C70D82F2CA6712C00A19A97 /* VariasVistas */ = {
-			isa = PBXGroup;
-			children = (
-				2C70D8282CA60ABD00A19A97 /* VariasVistas.swift */,
-				2C70D82C2CA6112200A19A97 /* VistaEditar.swift */,
-				2C70D82A2CA60E3E00A19A97 /* VistaFoto.swift */,
-			);
-			path = VariasVistas;
-			sourceTree = "<group>";
-		};
-		2C70D8302CA6715D00A19A97 /* Binding */ = {
-			isa = PBXGroup;
-			children = (
-				2C70D8312CA6716A00A19A97 /* BindingView.swift */,
-				2C70D8332CA6718800A19A97 /* CoordinatesView.swift */,
-			);
-			path = Binding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C70D7D82CA215C300A19A97 /* Lessons */ = {
+		2C6D691F2CB495E400487ED5 /* GymApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C70D7E72CA215C400A19A97 /* Build configuration list for PBXNativeTarget "Lessons" */;
+			buildConfigurationList = 2C6D692E2CB495E600487ED5 /* Build configuration list for PBXNativeTarget "GymApp" */;
 			buildPhases = (
-				2C70D7D52CA215C300A19A97 /* Sources */,
-				2C70D7D62CA215C300A19A97 /* Frameworks */,
-				2C70D7D72CA215C300A19A97 /* Resources */,
+				2C6D691C2CB495E400487ED5 /* Sources */,
+				2C6D691D2CB495E400487ED5 /* Frameworks */,
+				2C6D691E2CB495E400487ED5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Lessons;
-			productName = Calculo;
-			productReference = 2C70D7D92CA215C300A19A97 /* Lessons.app */;
+			name = GymApp;
+			productName = GymApp;
+			productReference = 2C6D69202CB495E400487ED5 /* GymApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2C70D7D12CA215C300A19A97 /* Project object */ = {
+		2C6D69182CB495E400487ED5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					2C70D7D82CA215C300A19A97 = {
+					2C6D691F2CB495E400487ED5 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 2C70D7D42CA215C300A19A97 /* Build configuration list for PBXProject "Lessons" */;
+			buildConfigurationList = 2C6D691B2CB495E400487ED5 /* Build configuration list for PBXProject "GymApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,52 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 2C70D7D02CA215C300A19A97;
-			productRefGroup = 2C70D7DA2CA215C300A19A97 /* Products */;
+			mainGroup = 2C6D69172CB495E400487ED5;
+			productRefGroup = 2C6D69212CB495E400487ED5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C70D7D82CA215C300A19A97 /* Lessons */,
+				2C6D691F2CB495E400487ED5 /* GymApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C70D7D72CA215C300A19A97 /* Resources */ = {
+		2C6D691E2CB495E400487ED5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C70D7E42CA215C400A19A97 /* Preview Assets.xcassets in Resources */,
-				2C70D7E12CA215C400A19A97 /* Assets.xcassets in Resources */,
+				2C6D692B2CB495E600487ED5 /* Preview Assets.xcassets in Resources */,
+				2C6D69282CB495E600487ED5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C70D7D52CA215C300A19A97 /* Sources */ = {
+		2C6D691C2CB495E400487ED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C70D7DF2CA215C300A19A97 /* Divisas.swift in Sources */,
-				2C70D8342CA6718800A19A97 /* CoordinatesView.swift in Sources */,
-				2C70D8292CA60ABD00A19A97 /* VariasVistas.swift in Sources */,
-				2C70D8322CA6716A00A19A97 /* BindingView.swift in Sources */,
-				2C6D69162CB48E8100487ED5 /* FormsView.swift in Sources */,
-				2C6D69112CAF42F500487ED5 /* Jugador.swift in Sources */,
-				2C6D69132CAF47B700487ED5 /* DetailView.swift in Sources */,
-				2C70D82B2CA60E3E00A19A97 /* VistaFoto.swift in Sources */,
-				2C70D8362CA671E400A19A97 /* HomeView.swift in Sources */,
-				2C6D690F2CAF42EE00487ED5 /* NavView.swift in Sources */,
-				2C70D82D2CA6112200A19A97 /* VistaEditar.swift in Sources */,
-				2C70D7DD2CA215C300A19A97 /* MainApp.swift in Sources */,
+				2C6D69262CB495E400487ED5 /* ContentView.swift in Sources */,
+				2C6D69242CB495E400487ED5 /* GymAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2C70D7E52CA215C400A19A97 /* Debug */ = {
+		2C6D692C2CB495E600487ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		2C70D7E62CA215C400A19A97 /* Release */ = {
+		2C6D692D2CB495E600487ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,14 +264,14 @@
 			};
 			name = Release;
 		};
-		2C70D7E82CA215C400A19A97 /* Debug */ = {
+		2C6D692F2CB495E600487ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lessons/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GymApp/Preview Content\"";
 				DEVELOPMENT_TEAM = FBFGPPRU68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -365,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CTST.Calculo;
+				PRODUCT_BUNDLE_IDENTIFIER = CTST.GymApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		2C70D7E92CA215C400A19A97 /* Release */ = {
+		2C6D69302CB495E600487ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lessons/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GymApp/Preview Content\"";
 				DEVELOPMENT_TEAM = FBFGPPRU68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -394,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CTST.Calculo;
+				PRODUCT_BUNDLE_IDENTIFIER = CTST.GymApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -405,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C70D7D42CA215C300A19A97 /* Build configuration list for PBXProject "Lessons" */ = {
+		2C6D691B2CB495E400487ED5 /* Build configuration list for PBXProject "GymApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C70D7E52CA215C400A19A97 /* Debug */,
-				2C70D7E62CA215C400A19A97 /* Release */,
+				2C6D692C2CB495E600487ED5 /* Debug */,
+				2C6D692D2CB495E600487ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C70D7E72CA215C400A19A97 /* Build configuration list for PBXNativeTarget "Lessons" */ = {
+		2C6D692E2CB495E600487ED5 /* Build configuration list for PBXNativeTarget "GymApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C70D7E82CA215C400A19A97 /* Debug */,
-				2C70D7E92CA215C400A19A97 /* Release */,
+				2C6D692F2CB495E600487ED5 /* Debug */,
+				2C6D69302CB495E600487ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2C70D7D12CA215C300A19A97 /* Project object */;
+	rootObject = 2C6D69182CB495E400487ED5 /* Project object */;
 }

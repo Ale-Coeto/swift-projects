@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2C6D69242CB495E400487ED5 /* GymAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69232CB495E400487ED5 /* GymAppApp.swift */; };
-		2C6D69262CB495E400487ED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69252CB495E400487ED5 /* ContentView.swift */; };
+		2C6D69262CB495E400487ED5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69252CB495E400487ED5 /* MainView.swift */; };
 		2C6D69282CB495E600487ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6D69272CB495E600487ED5 /* Assets.xcassets */; };
 		2C6D692B2CB495E600487ED5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6D692A2CB495E600487ED5 /* Preview Assets.xcassets */; };
+		2C6D69322CB4975600487ED5 /* MainViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69312CB4975600487ED5 /* MainViewVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C6D69202CB495E400487ED5 /* GymApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6D69232CB495E400487ED5 /* GymAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppApp.swift; sourceTree = "<group>"; };
-		2C6D69252CB495E400487ED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C6D69252CB495E400487ED5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2C6D69272CB495E600487ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C6D692A2CB495E600487ED5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C6D69312CB4975600487ED5 /* MainViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				2C6D69232CB495E400487ED5 /* GymAppApp.swift */,
-				2C6D69252CB495E400487ED5 /* ContentView.swift */,
+				2C6D69252CB495E400487ED5 /* MainView.swift */,
+				2C6D69312CB4975600487ED5 /* MainViewVM.swift */,
 				2C6D69272CB495E600487ED5 /* Assets.xcassets */,
 				2C6D69292CB495E600487ED5 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6D69262CB495E400487ED5 /* ContentView.swift in Sources */,
+				2C6D69322CB4975600487ED5 /* MainViewVM.swift in Sources */,
+				2C6D69262CB495E400487ED5 /* MainView.swift in Sources */,
 				2C6D69242CB495E400487ED5 /* GymAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

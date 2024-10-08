@@ -43,6 +43,12 @@ struct HomeView: View {
                     } label: {
                         Text("Navigation view")
                     }
+                    
+                    NavigationLink {
+                        ArticlesView()
+                    } label: {
+                        Text("Articles view")
+                    }
 
                 }
                 

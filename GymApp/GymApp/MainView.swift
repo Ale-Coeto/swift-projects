@@ -105,12 +105,12 @@ struct MainView: View {
                             
                             HStack {
                                 Text("Intensidad mínima")
-                                Text("\(viewModel.intensidadMin)")
+                                Text(String(format: "%.1f", viewModel.intensidadMin))
                             }
                             
                             HStack {
                                 Text("Intensidad máxima")
-                                Text("\(viewModel.intensidadMax)")
+                                Text(String(format: "%.1f", viewModel.intensidadMax))
                             }
                         }
                         .padding()

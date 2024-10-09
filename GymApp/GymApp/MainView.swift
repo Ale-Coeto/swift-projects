@@ -77,6 +77,12 @@ struct MainView: View {
                         Color(viewModel.colores[viewModel.intensidad] ?? Color(.gray))
                             .opacity(0.5)
                         VStack {
+                            Text("Resumen")
+                                .bold()
+                                
+                            Divider()
+//                                .padding(.bottom, 10)
+                            
                             HStack {
                                 Text("Aparato")
                                 Spacer()
@@ -100,16 +106,24 @@ struct MainView: View {
                                 Spacer()
                                 Text("\(Int(viewModel.edad)) años")
                             }
+                        
                             
                             Text("Fecuencia cardiaca recomendada")
+                                .bold()
+                                .padding(.top, 30)
+                                
+                            Divider()
+//                                .padding(.bottom, 10)
                             
                             HStack {
                                 Text("Intensidad mínima")
+                                Spacer()
                                 Text(String(format: "%.1f", viewModel.intensidadMin))
                             }
                             
                             HStack {
                                 Text("Intensidad máxima")
+                                Spacer()
                                 Text(String(format: "%.1f", viewModel.intensidadMax))
                             }
                         }

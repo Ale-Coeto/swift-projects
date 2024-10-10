@@ -49,6 +49,7 @@
 		2CBF751F2CB5DCC800F7F6F4 /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
 		2CBF75212CB5E05C00F7F6F4 /* NewArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArticleView.swift; sourceTree = "<group>"; };
 		2CBF75232CB5E6F100F7F6F4 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		2CBF75492CB87D1600F7F6F4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../../../../Downloads/MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 				2C70D82E2CA6711900A19A97 /* Divisas */,
 				2C70D8302CA6715D00A19A97 /* Binding */,
 				2C70D7E22CA215C400A19A97 /* Preview Content */,
+				2CBF75492CB87D1600F7F6F4 /* MyPlayground.playground */,
 			);
 			path = Lessons;
 			sourceTree = "<group>";

@@ -38,4 +38,8 @@ class ViewModel: ObservableObject {
         print(pathArchivo.path())
         return pathArchivo
     }
+    
+    func borrarAmigo(at offsets: IndexSet) {
+        amigos.remove(atOffsets: offsets)
+    }
 }

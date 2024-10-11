@@ -47,17 +47,13 @@ struct ContentView: View {
                     .fontWeight(.semibold)
                     .padding(.top, 40)
                 
-                VStack (alignment: .leading)  {
+                List {
                     ForEach(viewModel.amigos, id: \.self) {
                         amigo in
                         Text(amigo)
-                            .padding()
-                            .background(.white)
-                            .clipShape(RoundedRectangle(cornerRadius: 10))
                     }
-                    
+                    .onDelete(perform: viewModel.borrarAmigo)
                 }
-                
                 
             }
             .padding()

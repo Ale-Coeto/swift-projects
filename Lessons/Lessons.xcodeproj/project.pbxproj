@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5D29742CBDA9EC00EB3DB2 /* FotoDelDiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D29732CBDA9EC00EB3DB2 /* FotoDelDiaView.swift */; };
+		2C5D29762CBDAA0200EB3DB2 /* NASAInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5D29752CBDAA0200EB3DB2 /* NASAInfo.swift */; };
 		2C6D690F2CAF42EE00487ED5 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D690E2CAF42EE00487ED5 /* NavView.swift */; };
 		2C6D69112CAF42F500487ED5 /* Jugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69102CAF42F500487ED5 /* Jugador.swift */; };
 		2C6D69132CAF47B700487ED5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D69122CAF47B700487ED5 /* DetailView.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C5D29732CBDA9EC00EB3DB2 /* FotoDelDiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoDelDiaView.swift; sourceTree = "<group>"; };
+		2C5D29752CBDAA0200EB3DB2 /* NASAInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAInfo.swift; sourceTree = "<group>"; };
 		2C6D690E2CAF42EE00487ED5 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		2C6D69102CAF42F500487ED5 /* Jugador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jugador.swift; sourceTree = "<group>"; };
 		2C6D69122CAF47B700487ED5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C5D29722CBDA9D500EB3DB2 /* FotoDelDia */ = {
+			isa = PBXGroup;
+			children = (
+				2C5D29732CBDA9EC00EB3DB2 /* FotoDelDiaView.swift */,
+				2C5D29752CBDAA0200EB3DB2 /* NASAInfo.swift */,
+			);
+			path = FotoDelDia;
+			sourceTree = "<group>";
+		};
 		2C6D690D2CAF42DD00487ED5 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +113,7 @@
 		2C70D7DB2CA215C300A19A97 /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
+				2C5D29722CBDA9D500EB3DB2 /* FotoDelDia */,
 				2CBF751A2CB5DB8100F7F6F4 /* StateObject */,
 				2C6D69142CB48E6700487ED5 /* Utils */,
 				2C6D690D2CAF42DD00487ED5 /* Navigation */,
@@ -239,6 +253,7 @@
 				2CBF751E2CB5DC5200F7F6F4 /* ListaArticulos.swift in Sources */,
 				2C70D8322CA6716A00A19A97 /* BindingView.swift in Sources */,
 				2C6D69162CB48E8100487ED5 /* FormsView.swift in Sources */,
+				2C5D29742CBDA9EC00EB3DB2 /* FotoDelDiaView.swift in Sources */,
 				2C6D69112CAF42F500487ED5 /* Jugador.swift in Sources */,
 				2C6D69132CAF47B700487ED5 /* DetailView.swift in Sources */,
 				2C70D82B2CA60E3E00A19A97 /* VistaFoto.swift in Sources */,
@@ -247,6 +262,7 @@
 				2CBF75202CB5DCC800F7F6F4 /* ArticlesView.swift in Sources */,
 				2CBF75242CB5E6F100F7F6F4 /* ArticleDetailView.swift in Sources */,
 				2C70D82D2CA6112200A19A97 /* VistaEditar.swift in Sources */,
+				2C5D29762CBDAA0200EB3DB2 /* NASAInfo.swift in Sources */,
 				2C70D7DD2CA215C300A19A97 /* MainApp.swift in Sources */,
 				2CBF75222CB5E05D00F7F6F4 /* NewArticleView.swift in Sources */,
 			);

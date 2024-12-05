@@ -6,14 +6,65 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2C7FBFBC2D0125C700E76C02 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7FBF892D011F2200E76C02 /* WidgetKit.framework */; };
+		2C7FBFBD2D0125C700E76C02 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7FBF8B2D011F2200E76C02 /* SwiftUI.framework */; };
+		2C7FBFCA2D0125C800E76C02 /* TimeExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2C7FBFBB2D0125C700E76C02 /* TimeExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C7FBFC82D0125C800E76C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C19F6992CFFBEF200531B35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C7FBFBA2D0125C700E76C02;
+			remoteInfo = TimeExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C7FBF9C2D011F2400E76C02 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C7FBFCA2D0125C800E76C02 /* TimeExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2C19F6A12CFFBEF200531B35 /* Workshops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workshops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7FBF892D011F2200E76C02 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2C7FBF8B2D011F2200E76C02 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2C7FBFBB2D0125C700E76C02 /* TimeExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TimeExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2C7FBFCB2D0125C800E76C02 /* Exceptions for "Time" folder in "TimeExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2C7FBFBA2D0125C700E76C02 /* TimeExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2C19F6A32CFFBEF200531B35 /* Workshops */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Workshops;
+			sourceTree = "<group>";
+		};
+		2C7FBFBE2D0125C700E76C02 /* Time */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2C7FBFCB2D0125C800E76C02 /* Exceptions for "Time" folder in "TimeExtension" target */,
+			);
+			path = Time;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2C7FBFB82D0125C700E76C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7FBFBD2D0125C700E76C02 /* SwiftUI.framework in Frameworks */,
+				2C7FBFBC2D0125C700E76C02 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -33,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				2C19F6A32CFFBEF200531B35 /* Workshops */,
+				2C7FBFBE2D0125C700E76C02 /* Time */,
+				2C7FBF882D011F2200E76C02 /* Frameworks */,
 				2C19F6A22CFFBEF200531B35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,8 +103,18 @@
 			isa = PBXGroup;
 			children = (
 				2C19F6A12CFFBEF200531B35 /* Workshops.app */,
+				2C7FBFBB2D0125C700E76C02 /* TimeExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7FBF882D011F2200E76C02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C7FBF892D011F2200E76C02 /* WidgetKit.framework */,
+				2C7FBF8B2D011F2200E76C02 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,10 +127,12 @@
 				2C19F69D2CFFBEF200531B35 /* Sources */,
 				2C19F69E2CFFBEF200531B35 /* Frameworks */,
 				2C19F69F2CFFBEF200531B35 /* Resources */,
+				2C7FBF9C2D011F2400E76C02 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2C7FBFC92D0125C800E76C02 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				2C19F6A32CFFBEF200531B35 /* Workshops */,
@@ -69,6 +143,28 @@
 			productName = Workshops;
 			productReference = 2C19F6A12CFFBEF200531B35 /* Workshops.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2C7FBFBA2D0125C700E76C02 /* TimeExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7FBFCC2D0125C800E76C02 /* Build configuration list for PBXNativeTarget "TimeExtension" */;
+			buildPhases = (
+				2C7FBFB72D0125C700E76C02 /* Sources */,
+				2C7FBFB82D0125C700E76C02 /* Frameworks */,
+				2C7FBFB92D0125C700E76C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2C7FBFBE2D0125C700E76C02 /* Time */,
+			);
+			name = TimeExtension;
+			packageProductDependencies = (
+			);
+			productName = TimeExtension;
+			productReference = 2C7FBFBB2D0125C700E76C02 /* TimeExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +177,9 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					2C19F6A02CFFBEF200531B35 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2C7FBFBA2D0125C700E76C02 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -100,12 +199,20 @@
 			projectRoot = "";
 			targets = (
 				2C19F6A02CFFBEF200531B35 /* Workshops */,
+				2C7FBFBA2D0125C700E76C02 /* TimeExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2C19F69F2CFFBEF200531B35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7FBFB92D0125C700E76C02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +229,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2C7FBFB72D0125C700E76C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C7FBFC92D0125C800E76C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C7FBFBA2D0125C700E76C02 /* TimeExtension */;
+			targetProxy = 2C7FBFC82D0125C800E76C02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2C19F6AD2CFFBEF400531B35 /* Debug */ = {
@@ -302,6 +424,60 @@
 			};
 			name = Release;
 		};
+		2C7FBFCD2D0125C800E76C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBFGPPRU68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Time/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Time;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CTST.Workshops.Time;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C7FBFCE2D0125C800E76C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FBFGPPRU68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Time/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Time;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CTST.Workshops.Time;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +495,15 @@
 			buildConfigurations = (
 				2C19F6B02CFFBEF400531B35 /* Debug */,
 				2C19F6B12CFFBEF400531B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7FBFCC2D0125C800E76C02 /* Build configuration list for PBXNativeTarget "TimeExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7FBFCD2D0125C800E76C02 /* Debug */,
+				2C7FBFCE2D0125C800E76C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
